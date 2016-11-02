@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.8.2
+Created-By: 1.7.0_03-b05 (Oracle Corporation)
+Implementation-Title: Adobe XMP Core
+Implementation-Vendor: Copyright 2006-2009 Adobe Systems Incorporated.
+  All rights reserved
+Implementation-Major: 5
+Implementation-Minor: 1
+Implementation-Micro: 1
+Implementation-Debug: true
+Implementation-EngBuild: 003
+BuildDate: 2012 Jul 03 11:48:46-CEST
+AdobeIP: <AdobeIP#0000856>
+

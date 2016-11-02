@@ -1,0 +1,42 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1442011962116
+Build-Jdk: 1.7.0_80
+Built-By: desruisseaux
+Built-On: 2015-09-11T22:45:56Z
+Bundle-Description: Provides the interfaces and base classes to be imple
+ mented by various storage formats.
+Bundle-DocURL: http://sis.apache.org/storage/sis-storage
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache SIS common storage
+Bundle-SymbolicName: org.apache.sis.storage
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 0.6.0
+Class-Path: sis-utility-0.6.jar sis-metadata-0.6.jar sis-referencing-0.6
+ .jar geoapi-3.0.0.jar jsr-275-0.9.3.jar
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.apache.sis.internal.storage;x-friends="org.apache.si
+ s.storage.netcdf";uses:="javax.imageio.stream,org.apache.sis.util";vers
+ ion="0.6.0",org.apache.sis.index;uses:="org.opengis.geometry";version="
+ 0.6.0",org.apache.sis.index.tree;uses:="org.apache.sis.geometry";versio
+ n="0.6.0",org.apache.sis.internal.storage.xml;uses:="org.apache.sis.sto
+ rage,org.opengis.metadata";version="0.6.0",org.apache.sis.storage;uses:
+ ="org.apache.sis.internal.jdk7,org.apache.sis.setup,org.apache.sis.util
+ ,org.apache.sis.util.logging,org.opengis.metadata";version="0.6.0"
+Implementation-Title: Apache SIS common storage
+Implementation-URL: http://sis.apache.org/storage/sis-storage
+Implementation-Vendor: The Apache Software Foundation
+Implementation-Vendor-Id: org.apache.sis.storage
+Implementation-Version: 0.6
+Import-Package: javax.imageio,javax.imageio.stream,javax.sql,javax.xml.t
+ ransform,javax.xml.transform.stream,org.apache.sis.distance,org.apache.
+ sis.geometry,org.apache.sis.internal.jdk7,org.apache.sis.internal.syste
+ m,org.apache.sis.internal.util,org.apache.sis.metadata.iso,org.apache.s
+ is.setup,org.apache.sis.util,org.apache.sis.util.logging,org.apache.sis
+ .util.resources,org.apache.sis.xml,org.opengis.geometry,org.opengis.met
+ adata,org.opengis.referencing
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.6))"
+Specification-Title: GeoAPI
+Specification-Vendor: Open Geospatial Consortium
+Specification-Version: 3.0.0
+Tool: Bnd-2.3.0.201405100607

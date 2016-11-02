@@ -1,0 +1,64 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven Bundle Plugin
+Built-By: norman
+Build-Jdk: 1.6.0_29
+Implementation-Title: Apache Mime4j
+Implementation-Vendor: The Apache Software Foundation
+Implementation-Vendor-Id: org.apache
+Implementation-Version: 0.7.2
+Specification-Title: Apache Mime4j
+Specification-Vendor: The Apache Software Foundation
+Specification-Version: 0.7.2
+url: http://james.apache.org/mime4j/apache-mime4j-dom
+Export-Package: org.apache.james.mime4j.parser;uses:="org.apache.james
+ .mime4j,org.apache.james.mime4j.stream,org.apache.james.mime4j.codec"
+ ,org.apache.james.mime4j.field.datetime.parser;uses:="org.apache.jame
+ s.mime4j.dom.datetime,org.apache.james.mime4j.dom.field",org.apache.j
+ ames.mime4j.field.contenttype.parser;uses:="org.apache.james.mime4j.d
+ om.field",org.apache.james.mime4j.io;uses:="org.apache.james.mime4j.u
+ til,org.apache.james.mime4j",org.apache.james.mime4j.field;uses:="org
+ .apache.james.mime4j.dom.field,org.apache.james.mime4j.util,org.apach
+ e.james.mime4j.stream,org.apache.james.mime4j.codec,org.apache.james.
+ mime4j.dom,org.apache.james.mime4j.field.address,org.apache.james.mim
+ e4j.dom.address,org.apache.james.mime4j.dom.datetime,org.apache.james
+ .mime4j.field.datetime.parser,org.apache.james.mime4j.field.contentdi
+ sposition.parser,org.apache.james.mime4j.field.language.parser,org.ap
+ ache.james.mime4j.field.structured.parser,org.apache.james.mime4j.fie
+ ld.contenttype.parser,org.apache.james.mime4j,org.apache.james.mime4j
+ .field.mimeversion.parser",org.apache.james.mime4j,org.apache.james.m
+ ime4j.codec;uses:="org.apache.james.mime4j.util",org.apache.james.mim
+ e4j.field.language.parser;uses:="org.apache.james.mime4j.dom.field",o
+ rg.apache.james.mime4j.dom.field;uses:="org.apache.james.mime4j.dom.a
+ ddress,org.apache.james.mime4j,org.apache.james.mime4j.stream",org.ap
+ ache.james.mime4j.dom.datetime,org.apache.james.mime4j.field.address;
+ uses:="org.apache.james.mime4j.dom.address,org.apache.james.mime4j.co
+ dec,org.apache.james.mime4j.util,org.apache.james.mime4j.stream,org.a
+ pache.james.mime4j.dom.field",org.apache.james.mime4j.util,org.apache
+ .james.mime4j.field.contentdisposition.parser;uses:="org.apache.james
+ .mime4j.dom.field",org.apache.james.mime4j.dom.address;uses:="org.apa
+ che.james.mime4j.util",org.apache.james.mime4j.field.structured.parse
+ r;uses:="org.apache.james.mime4j.dom.field",org.apache.james.mime4j.m
+ essage;uses:="org.apache.james.mime4j.dom.field,org.apache.james.mime
+ 4j.stream,org.apache.james.mime4j.dom,org.apache.james.mime4j.dom.add
+ ress,org.apache.james.mime4j.util,org.apache.james.mime4j.field,org.a
+ pache.james.mime4j,org.apache.james.mime4j.codec,org.apache.james.mim
+ e4j.parser",org.apache.james.mime4j.field.mimeversion.parser;uses:="o
+ rg.apache.james.mime4j.dom.field",org.apache.james.mime4j.dom;uses:="
+ org.apache.james.mime4j.dom.field,org.apache.james.mime4j.stream,org.
+ apache.james.mime4j.codec,org.apache.james.mime4j.dom.address,org.apa
+ che.james.mime4j",org.apache.james.mime4j.stream;uses:="org.apache.ja
+ mes.mime4j,org.apache.james.mime4j.util,org.apache.james.mime4j.io,or
+ g.apache.james.mime4j.codec"
+Tool: Bnd-1.15.0
+Bundle-Name: Apache JAMES Mime4j (DOM)
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 0.7.2
+Bnd-LastModified: 1325945393545
+Bundle-ManifestVersion: 2
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-Description: Java MIME Document Object Model
+Bundle-SymbolicName: org.apache.james.apache-mime4j-dom
+Bundle-DocURL: http://www.apache.org/
+Embed-Dependency: *;scope=runtime
+

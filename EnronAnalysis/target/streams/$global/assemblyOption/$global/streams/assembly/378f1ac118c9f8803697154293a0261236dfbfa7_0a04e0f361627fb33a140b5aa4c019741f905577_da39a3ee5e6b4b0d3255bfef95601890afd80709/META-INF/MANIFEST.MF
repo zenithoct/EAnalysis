@@ -1,0 +1,81 @@
+Manifest-Version: 1.0
+Export-Package: org.opengis.annotation,org.opengis.parameter;uses:="or
+ g.opengis.annotation,org.opengis.referencing,javax.measure.unit",org.
+ opengis.util;uses:="org.opengis.annotation,org.opengis.metadata.citat
+ ion",org.opengis.geometry;uses:="org.opengis.geometry.coordinate,org.
+ opengis.referencing.crs,org.opengis.annotation",org.opengis.geometry.
+ coordinate;uses:="org.opengis.geometry,org.opengis.annotation",org.op
+ engis.geometry.primitive;uses:="org.opengis.geometry",org.opengis.ref
+ erencing;uses:="org.opengis.metadata.citation,org.opengis.annotation,
+ org.opengis.util,org.opengis.metadata,org.opengis.metadata.extent",or
+ g.opengis.referencing.crs;uses:="org.opengis.annotation,org.opengis.u
+ til,org.opengis.referencing,org.opengis.referencing.cs,org.opengis.re
+ ferencing.datum,org.opengis.referencing.operation",org.opengis.refere
+ ncing.cs;uses:="org.opengis.annotation,org.opengis.util,javax.measure
+ .unit,org.opengis.referencing",org.opengis.referencing.operation;uses
+ :="org.opengis.annotation,org.opengis.referencing.crs,org.opengis.met
+ adata.quality,org.opengis.util,org.opengis.metadata.extent,org.opengi
+ s.referencing,org.opengis.parameter,org.opengis.metadata.citation,org
+ .opengis.geometry,org.opengis.referencing.cs",org.opengis.referencing
+ .datum;uses:="org.opengis.annotation,org.opengis.util,org.opengis.met
+ adata.extent,org.opengis.referencing,javax.measure.unit,javax.measure
+ .quantity",org.opengis.feature.type,org.opengis.temporal,org.opengis.
+ metadata.content;uses:="javax.measure.unit,javax.measure.quantity,org
+ .opengis.annotation,org.opengis.util,org.opengis.metadata.citation,or
+ g.opengis.metadata",org.opengis.metadata.citation;uses:="org.opengis.
+ annotation,org.opengis.util,org.opengis.metadata",org.opengis.metadat
+ a.lineage;uses:="org.opengis.metadata.citation,org.opengis.annotation
+ ,org.opengis.util,org.opengis.metadata,org.opengis.referencing,org.op
+ engis.metadata.identification,org.opengis.metadata.extent",org.opengi
+ s.metadata;uses:="org.opengis.metadata.citation,org.opengis.annotatio
+ n,org.opengis.util,org.opengis.metadata.maintenance,org.opengis.metad
+ ata.distribution,org.opengis.metadata.constraint,org.opengis.metadata
+ .quality,org.opengis.metadata.acquisition,org.opengis.metadata.spatia
+ l,org.opengis.metadata.identification,org.opengis.metadata.content,or
+ g.opengis.referencing",org.opengis.metadata.quality;uses:="org.opengi
+ s.annotation,org.opengis.metadata.citation,org.opengis.util,org.openg
+ is.metadata.distribution,org.opengis.metadata.content,org.opengis.met
+ adata.spatial,org.opengis.metadata.lineage,org.opengis.metadata,javax
+ .measure.unit,org.opengis.metadata.maintenance,org.opengis.metadata.e
+ xtent",org.opengis.metadata.maintenance;uses:="org.opengis.annotation
+ ,org.opengis.util,org.opengis.temporal,org.opengis.metadata.citation,
+ org.opengis.feature.type",org.opengis.metadata.acquisition;uses:="org
+ .opengis.annotation,org.opengis.util,org.opengis.metadata,org.opengis
+ .metadata.citation,org.opengis.metadata.extent,org.opengis.metadata.i
+ dentification,org.opengis.geometry",org.opengis.metadata.constraint;u
+ ses:="org.opengis.annotation,org.opengis.util",org.opengis.metadata.i
+ dentification;uses:="org.opengis.metadata.citation,org.opengis.annota
+ tion,org.opengis.metadata,org.opengis.util,org.opengis.metadata.spati
+ al,org.opengis.metadata.extent,org.opengis.metadata.maintenance,org.o
+ pengis.metadata.distribution,org.opengis.metadata.constraint",org.ope
+ ngis.metadata.spatial;uses:="org.opengis.annotation,org.opengis.util,
+ org.opengis.metadata.quality,org.opengis.geometry,org.opengis.referen
+ cing,org.opengis.geometry.primitive,org.opengis.metadata.citation",or
+ g.opengis.metadata.distribution;uses:="org.opengis.annotation,org.ope
+ ngis.util,org.opengis.metadata.citation,javax.measure.unit",org.openg
+ is.metadata.extent;uses:="org.opengis.geometry,org.opengis.annotation
+ ,org.opengis.util,org.opengis.metadata,org.opengis.temporal,org.openg
+ is.referencing.crs"
+Built-By: ogc
+Class-Path: jsr-275-0.9.3.jar
+Specification-Vendor: Open Geospatial Consortium
+Tool: Bnd-1.15.0
+Bundle-Name: GeoAPI
+Created-By: Apache Maven Bundle Plugin
+Bundle-Vendor: Open Geospatial Consortium
+Build-Jdk: 1.6.0_24
+Bundle-Version: 3.0.0
+Bnd-LastModified: 1306982808150
+Bundle-ManifestVersion: 2
+Specification-Title: GeoAPI
+Bundle-Description: The development community in building GIS solution
+ s is sustaining an enormous level of effort. The GeoAPI project aims 
+ to reduce duplication and increase interoperability by providing neut
+ ral, interface-only APIs derived from OGC/ISO Standards.
+Bundle-License: https://geoapi.svn.sourceforge.net/svnroot/geoapi/bran
+ ches/3.0.x/LICENSE.txt
+Bundle-DocURL: http://www.geoapi.org
+Bundle-SymbolicName: org.opengis.geoapi
+Import-Package: javax.measure.quantity,javax.measure.unit
+Specification-Version: 3.0.0
+

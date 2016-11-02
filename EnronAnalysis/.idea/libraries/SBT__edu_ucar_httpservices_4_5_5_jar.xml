@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: edu.ucar:httpservices:4.5.5:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/edu.ucar/httpservices/jars/httpservices-4.5.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/edu.ucar/httpservices/srcs/httpservices-4.5.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,36 @@
+Manifest-Version: 1.0
+Export-Package: org.apache.ws.commons.schema;uses:="org.w3c.dom,org.ap
+ ache.ws.commons.schema.utils,org.apache.ws.commons.schema.resolver,ja
+ vax.xml.parsers,org.apache.ws.commons.schema.extensions,javax.xml.nam
+ espace,org.xml.sax,javax.xml.transform,javax.xml.transform.stream,jav
+ ax.xml.transform.dom,org.apache.ws.commons.schema.constants,javax.xml
+ .transform.sax";version="2.1.0",org.apache.ws.commons.schema.resolver
+ ;uses:="org.xml.sax";version="2.1.0",org.apache.ws.commons.schema.uti
+ ls;uses:="org.w3c.dom,javax.xml.namespace,org.apache.ws.commons.schem
+ a";version="2.1.0",org.apache.ws.commons.schema.extensions;uses:="org
+ .apache.ws.commons.schema,org.w3c.dom,javax.xml.namespace";version="2
+ .1.0",org.apache.ws.commons.schema.constants;uses:="javax.xml.namespa
+ ce";version="2.1.0"
+Private-Package: org.apache.ws.commons.schema.internal
+Built-By: dkulp
+Tool: Bnd-0.0.311
+Bundle-Name: XmlSchema Core
+Created-By: Apache Maven Bundle Plugin
+Bundle-Vendor: The Apache Software Foundation
+Build-Jdk: 1.6.0_65
+Bundle-Version: 2.1.0
+Bnd-LastModified: 1390330348336
+Bundle-ManifestVersion: 2
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-Description: Commons XMLSchema is a light weight schema object 
+ model that can be used to manipulate or        generate XML schema.
+Bundle-DocURL: http://www.apache.org/
+Bundle-SymbolicName: org.apache.ws.xmlschema.core
+Import-Package: javax.xml.namespace,javax.xml.parsers,javax.xml.transf
+ orm,javax.xml.transform.dom,javax.xml.transform.sax,javax.xml.transfo
+ rm.stream,org.apache.ws.commons.schema;version="2.1",org.apache.ws.co
+ mmons.schema.constants;version="2.1",org.apache.ws.commons.schema.ext
+ ensions;version="2.1",org.apache.ws.commons.schema.resolver;version="
+ 2.1",org.apache.ws.commons.schema.utils;version="2.1",org.w3c.dom,org
+ .xml.sax
+

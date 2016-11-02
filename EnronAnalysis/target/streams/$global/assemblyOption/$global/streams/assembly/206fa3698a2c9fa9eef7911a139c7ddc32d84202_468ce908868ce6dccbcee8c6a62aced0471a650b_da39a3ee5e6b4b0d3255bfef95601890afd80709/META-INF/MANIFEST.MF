@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Ion-Java-Project-Version: 1.0.1
+Archiver-Version: Plexus Archiver
+Built-By: montgome
+Ion-Java-Build-Time: 2016-09-29T18:16:40Z
+Created-By: Apache Maven 3.3.9
+Build-Jdk: 1.8.0_66
+Main-Class: software.amazon.ion.impl.PrivateCommandLine
+

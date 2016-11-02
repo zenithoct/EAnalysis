@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: rome
+Implementation-Version: 1.5.1
+Archiver-Version: Plexus Archiver
+Built-By: jenkins
+Specification-Title: rome
+Implementation-Vendor-Id: com.rometools
+Created-By: Apache Maven 3.1.1
+Build-Jdk: 1.8.0_45
+Specification-Version: 1.5.1
+

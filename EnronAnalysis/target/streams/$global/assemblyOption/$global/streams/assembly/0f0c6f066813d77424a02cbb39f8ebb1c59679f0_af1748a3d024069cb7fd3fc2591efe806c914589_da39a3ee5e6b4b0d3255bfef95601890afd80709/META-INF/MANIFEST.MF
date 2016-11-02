@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Implementation-Vendor: UCAR/Unidata
+Implementation-Title: CDM core library
+Implementation-Version: 4.5.5
+Implementation-Vendor-Id: edu.ucar
+Built-On: 20150306.1537
+Built-By: tomcat
+Build-Jdk: 1.7.0_72
+Class-Path: udunits-4.5.5.jar httpservices-4.5.5.jar httpclient-4.2.6.
+ jar commons-logging-1.1.1.jar commons-codec-1.6.jar httpmime-4.2.6.ja
+ r httpcore-4.2.5.jar jcl-over-slf4j-1.7.7.jar joda-time-2.2.jar slf4j
+ -api-1.7.7.jar jdom2-2.0.4.jar jcip-annotations-1.0.jar quartz-2.2.0.
+ jar c3p0-0.9.1.1.jar protobuf-java-2.5.0.jar ehcache-core-2.6.2.jar g
+ uava-17.0.jar bzip2-0.9.1.jar jcommander-1.35.jar
+Created-By: Apache Maven 3.0.4
+Archiver-Version: Plexus Archiver
+

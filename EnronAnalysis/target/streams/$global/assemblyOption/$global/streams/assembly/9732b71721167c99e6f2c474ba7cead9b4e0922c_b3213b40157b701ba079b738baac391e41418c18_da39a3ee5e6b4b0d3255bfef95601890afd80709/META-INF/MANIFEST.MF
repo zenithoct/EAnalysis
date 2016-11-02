@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: olamy
+Build-Jdk: 1.6.0_20
+Specification-Title: Maven SCM Subversion Provider - SVN Executable Im
+ pl.
+Specification-Version: 1.4
+Specification-Vendor: The Apache Software Foundation
+Implementation-Title: Maven SCM Subversion Provider - SVN Executable I
+ mpl.
+Implementation-Version: 1.4
+Implementation-Vendor-Id: org.apache.maven.scm
+Implementation-Vendor: The Apache Software Foundation
+

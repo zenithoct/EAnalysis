@@ -1,0 +1,33 @@
+Manifest-Version: 1.0
+Export-Package: org.apache.commons.exec;version="1.3",org.apache.commo
+ ns.exec.environment;version="1.3",org.apache.commons.exec.launcher;ve
+ rsion="1.3",org.apache.commons.exec.util;version="1.3"
+Implementation-Title: Apache Commons Exec
+Built-By: ggregory
+Tool: Bnd-2.3.0.201405100607
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.5))"
+Implementation-Vendor: The Apache Software Foundation
+Implementation-Vendor-Id: org.apache
+Specification-Title: Apache Commons Exec
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-SymbolicName: org.apache.commons.exec
+X-Compile-Target-JDK: 1.5
+Implementation-Version: 1.3
+Specification-Vendor: The Apache Software Foundation
+Bundle-Name: Apache Commons Exec
+Created-By: Apache Maven Bundle Plugin
+X-Compile-Source-JDK: 1.5
+Bundle-Vendor: The Apache Software Foundation
+Build-Jdk: 1.7.0_71
+Bundle-Version: 1.3.0
+Bnd-LastModified: 1414972321055
+Bundle-ManifestVersion: 2
+Bundle-Description: Apache Commons Exec is a library to reliably execu
+ te external processes from within the JVM.
+Bundle-DocURL: http://commons.apache.org/proper/commons-exec/
+Include-Resource: META-INF/LICENSE.txt=LICENSE.txt,META-INF/NOTICE.txt
+ =NOTICE.txt
+Specification-Version: 1.3
+Implementation-Build: trunk@r1636211; 2014-11-02 23:51:55+0000
+Archiver-Version: Plexus Archiver
+

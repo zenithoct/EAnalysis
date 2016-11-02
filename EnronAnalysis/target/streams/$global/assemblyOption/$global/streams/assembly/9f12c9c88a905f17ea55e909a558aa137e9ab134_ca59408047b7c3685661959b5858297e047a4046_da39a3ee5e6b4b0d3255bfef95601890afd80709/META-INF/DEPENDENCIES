@@ -1,0 +1,25 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+Apache SIS referencing
+
+
+From: 'JScience' (http://jscience.org)
+  - JSR-275 (https://kenai.com/projects/jsr-275) javax.measure:jsr-275:jar:0.9.3
+    License: Specification License  (LICENSE.txt)
+
+From: 'Open Geospatial Consortium' (http://www.opengeospatial.org/)
+  - GeoAPI (http://www.geoapi.org/geoapi/) org.opengis:geoapi:bundle:3.0.0
+    License: OGC copyright  (https://geoapi.svn.sourceforge.net/svnroot/geoapi/branches/3.0.x/LICENSE.txt)
+
+From: 'The Apache Software Foundation' (http://www.apache.org/)
+  - Apache SIS metadata (http://sis.apache.org/core/sis-metadata) org.apache.sis.core:sis-metadata:bundle:0.6
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache SIS utilities (http://sis.apache.org/core/sis-utility) org.apache.sis.core:sis-utility:bundle:0.6
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+
+
+

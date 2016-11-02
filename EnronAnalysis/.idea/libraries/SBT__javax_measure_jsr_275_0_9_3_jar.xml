@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="SBT: javax.measure:jsr-275:0.9.3:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/javax.measure/jsr-275/jars/jsr-275-0.9.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

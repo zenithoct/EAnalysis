@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: Parents
+Build-Jdk: 1.6.0_17
+Implementation-Title: JSR-275
+Implementation-Version: 0.9.3
+SCM-Revision: $Revision: 68 $
+Bundle-ManifestVersion: 2
+Bundle-Vendor: JScience
+Bundle-SymbolicName: javax.measure
+Bundle-Name: Measures and Units
+Bundle-Version: 0.9.3
+Export-Package: javax.measure,javax.measure.converter,javax.measure.qu
+ antity,javax.measure.unit,javax.measure.unit.format
+

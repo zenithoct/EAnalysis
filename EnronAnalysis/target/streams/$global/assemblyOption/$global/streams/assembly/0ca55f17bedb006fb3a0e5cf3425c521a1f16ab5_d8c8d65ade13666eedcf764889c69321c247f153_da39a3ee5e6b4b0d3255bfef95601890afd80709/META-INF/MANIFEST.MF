@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Implementation-Vendor: UCAR/Unidata
+Implementation-Title: udunits
+Implementation-Version: 4.5.5
+Implementation-Vendor-Id: edu.ucar
+Built-On: 20150306.1537
+Built-By: tomcat
+Build-Jdk: 1.7.0_72
+Class-Path: joda-time-2.2.jar jcip-annotations-1.0.jar
+Created-By: Apache Maven 3.0.4
+Archiver-Version: Plexus Archiver
+

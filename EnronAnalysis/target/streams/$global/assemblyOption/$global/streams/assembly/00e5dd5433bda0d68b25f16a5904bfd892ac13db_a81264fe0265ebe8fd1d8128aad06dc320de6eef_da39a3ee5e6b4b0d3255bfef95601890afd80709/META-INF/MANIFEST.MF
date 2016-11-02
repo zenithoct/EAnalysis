@@ -1,0 +1,33 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven Bundle Plugin
+Built-By: norman
+Build-Jdk: 1.6.0_29
+Implementation-Title: Apache Mime4j
+Implementation-Vendor: The Apache Software Foundation
+Implementation-Vendor-Id: org.apache
+Implementation-Version: 0.7.2
+Specification-Title: Apache Mime4j
+Specification-Vendor: The Apache Software Foundation
+Specification-Version: 0.7.2
+url: http://james.apache.org/mime4j/apache-mime4j-core
+Export-Package: org.apache.james.mime4j.parser;uses:="org.apache.james
+ .mime4j,org.apache.james.mime4j.stream,org.apache.james.mime4j.codec"
+ ,org.apache.james.mime4j.util,org.apache.james.mime4j.io;uses:="org.a
+ pache.james.mime4j.util,org.apache.james.mime4j",org.apache.james.mim
+ e4j,org.apache.james.mime4j.stream;uses:="org.apache.james.mime4j,org
+ .apache.james.mime4j.util,org.apache.james.mime4j.io,org.apache.james
+ .mime4j.codec",org.apache.james.mime4j.codec;uses:="org.apache.james.
+ mime4j.util"
+Tool: Bnd-1.15.0
+Bundle-Name: Apache JAMES Mime4j (Core)
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 0.7.2
+Bnd-LastModified: 1325945271841
+Bundle-ManifestVersion: 2
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-Description: Java stream based MIME message parser
+Bundle-SymbolicName: org.apache.james.apache-mime4j-core
+Bundle-DocURL: http://www.apache.org/
+Embed-Dependency: *;scope=runtime
+

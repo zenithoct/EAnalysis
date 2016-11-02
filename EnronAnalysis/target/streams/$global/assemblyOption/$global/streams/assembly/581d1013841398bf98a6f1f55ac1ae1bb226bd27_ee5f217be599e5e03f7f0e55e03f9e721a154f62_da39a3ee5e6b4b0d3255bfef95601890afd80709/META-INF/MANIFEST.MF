@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Implementation-Vendor: UCAR/Unidata
+Implementation-Title: HttpClient Wrappers
+Implementation-Version: 4.5.5
+Implementation-Vendor-Id: edu.ucar
+Built-On: 20150306.1537
+Built-By: tomcat
+Build-Jdk: 1.7.0_72
+Class-Path: jcip-annotations-1.0.jar httpclient-4.2.6.jar commons-logg
+ ing-1.1.1.jar commons-codec-1.6.jar httpcore-4.2.5.jar httpmime-4.2.6
+ .jar slf4j-api-1.7.7.jar
+Created-By: Apache Maven 3.0.4
+Archiver-Version: Plexus Archiver
+

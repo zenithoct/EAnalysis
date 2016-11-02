@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Implementation-Title: HttpComponents Apache HttpClient Mime
+Implementation-Version: 4.2.6
+Built-By: oleg
+Specification-Vendor: The Apache Software Foundation
+Created-By: Apache Maven 3.0.5
+url: http://hc.apache.org/httpcomponents-client
+X-Compile-Source-JDK: 1.5
+Implementation-Vendor: The Apache Software Foundation
+Implementation-Vendor-Id: org.apache
+Build-Jdk: 1.7.0_21
+Specification-Title: HttpComponents Apache HttpClient Mime
+Specification-Version: 4.2.6
+Implementation-Build: tags/4.2.6-RC2/httpmime@r1520084; 2013-09-04 20:
+ 15:00+0200
+X-Compile-Target-JDK: 1.5
+Archiver-Version: Plexus Archiver
+

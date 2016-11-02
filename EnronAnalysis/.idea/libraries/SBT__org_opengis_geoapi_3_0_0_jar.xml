@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: org.opengis:geoapi:3.0.0:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.opengis/geoapi/bundles/geoapi-3.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.opengis/geoapi/srcs/geoapi-3.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

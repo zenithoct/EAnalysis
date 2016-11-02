@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Implementation-Vendor: UCAR/Unidata
+Implementation-Title: GRIB IOSP and Feature Collection
+Implementation-Version: 4.5.5
+Implementation-Vendor-Id: edu.ucar
+Built-On: 20150306.1537
+Built-By: tomcat
+Build-Jdk: 1.7.0_72
+Class-Path: cdm-4.5.5.jar udunits-4.5.5.jar httpservices-4.5.5.jar htt
+ pclient-4.2.6.jar commons-logging-1.1.1.jar commons-codec-1.6.jar htt
+ pmime-4.2.6.jar httpcore-4.2.5.jar jcl-over-slf4j-1.7.7.jar joda-time
+ -2.2.jar quartz-2.2.0.jar c3p0-0.9.1.1.jar ehcache-core-2.6.2.jar gua
+ va-17.0.jar jcommander-1.35.jar protobuf-java-2.5.0.jar jdom2-2.0.4.j
+ ar jsoup-1.7.2.jar slf4j-api-1.7.7.jar jcip-annotations-1.0.jar jj200
+ 0-5.2.jar bzip2-0.9.1.jar
+Created-By: Apache Maven 3.0.4
+Archiver-Version: Plexus Archiver
+

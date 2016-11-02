@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: org.apache.sis.core:sis-referencing:0.6:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.sis.core/sis-referencing/bundles/sis-referencing-0.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.sis.core/sis-referencing/srcs/sis-referencing-0.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,36 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven Bundle Plugin
+Built-By: james
+Build-Jdk: 1.6.0_45
+Bnd-LastModified: 1444178722490
+Bundle-Description: An add-on to the Jackcess library for handling enc
+ ryption in MS Access files.
+Bundle-DocURL: http://www.healthmarketscience.com
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Jackcess Encrypt
+Bundle-SymbolicName: com.healthmarketscience.jackcess.encrypt
+Bundle-Vendor: Health Market Science
+Bundle-Version: 2.1.1
+Export-Package: com.healthmarketscience.jackcess;version="2.1.0",com.h
+ ealthmarketscience.jackcess.cryptmodel;uses:="javax.xml.bind.annotati
+ on,javax.xml.bind.annotation.adapters,javax.xml.bind,javax.xml.namesp
+ ace";version="2.1.1",com.healthmarketscience.jackcess.cryptmodel.cert
+ ;uses:="javax.xml.bind.annotation,javax.xml.bind,javax.xml.namespace"
+ ;version="2.1.1",com.healthmarketscience.jackcess.cryptmodel.password
+ ;uses:="javax.xml.bind.annotation,javax.xml.bind.annotation.adapters,
+ javax.xml.bind,javax.xml.namespace";version="2.1.1",com.healthmarkets
+ cience.jackcess.util;uses:="org.bouncycastle.crypto.engines,org.bounc
+ ycastle.crypto";version="2.1.0"
+Import-Package: com.healthmarketscience.jackcess.cryptmodel,com.health
+ marketscience.jackcess.cryptmodel.password,com.healthmarketscience.ja
+ ckcess.util;version="[2.1,3)",javax.xml.bind,javax.xml.bind.annotatio
+ n,javax.xml.bind.annotation.adapters,javax.xml.namespace,org.apache.c
+ ommons.lang.builder;version="[2.6,3)",org.bouncycastle.crypto;version
+ ="[1.52,2)",org.bouncycastle.crypto.digests;version="[1.52,2)",org.bo
+ uncycastle.crypto.engines;version="[1.52,2)",org.bouncycastle.crypto.
+ modes;version="[1.52,2)",org.bouncycastle.crypto.params;version="[1.5
+ 2,2)",org.w3c.dom
+Tool: Bnd-1.50.0
+

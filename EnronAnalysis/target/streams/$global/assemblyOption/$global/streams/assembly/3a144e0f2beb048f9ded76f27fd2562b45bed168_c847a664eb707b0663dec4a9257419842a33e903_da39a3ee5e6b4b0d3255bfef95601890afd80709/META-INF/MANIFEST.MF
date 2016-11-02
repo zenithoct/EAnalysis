@@ -1,0 +1,46 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1442011989541
+Build-Jdk: 1.7.0_80
+Built-By: desruisseaux
+Built-On: 2015-09-11T22:45:56Z
+Bundle-Description: Bridge between NetCDF Climate and Forecast (CF) conv
+ ention and ISO 19115 metadata.
+Bundle-DocURL: http://sis.apache.org/storage/sis-netcdf
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache SIS NetCDF storage
+Bundle-SymbolicName: org.apache.sis.storage.netcdf
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 0.6.0
+Class-Path: sis-storage-0.6.jar sis-metadata-0.6.jar sis-utility-0.6.jar
+  sis-referencing-0.6.jar geoapi-3.0.0.jar jsr-275-0.9.3.jar
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.apache.sis.storage.netcdf;uses:="org.apache.sis.stor
+ age,org.opengis.metadata,org.opengis.metadata.citation,org.opengis.meta
+ data.spatial";version="0.6.0"
+Implementation-Title: Apache SIS NetCDF storage
+Implementation-URL: http://sis.apache.org/storage/sis-netcdf
+Implementation-Vendor: The Apache Software Foundation
+Implementation-Vendor-Id: org.apache.sis.storage
+Implementation-Version: 0.6
+Import-Package: javax.measure.converter,javax.measure.unit,org.apache.si
+ s.internal.jdk7,org.apache.sis.internal.jdk8,org.apache.sis.internal.st
+ orage,org.apache.sis.internal.system,org.apache.sis.internal.util,org.a
+ pache.sis.measure,org.apache.sis.metadata,org.apache.sis.metadata.iso,o
+ rg.apache.sis.metadata.iso.citation,org.apache.sis.metadata.iso.constra
+ int,org.apache.sis.metadata.iso.content,org.apache.sis.metadata.iso.dis
+ tribution,org.apache.sis.metadata.iso.extent,org.apache.sis.metadata.is
+ o.identification,org.apache.sis.metadata.iso.lineage,org.apache.sis.met
+ adata.iso.quality,org.apache.sis.metadata.iso.spatial,org.apache.sis.st
+ orage,org.apache.sis.util,org.apache.sis.util.iso,org.apache.sis.util.l
+ ogging,org.apache.sis.util.resources,org.opengis.metadata,org.opengis.m
+ etadata.citation,org.opengis.metadata.constraint,org.opengis.metadata.c
+ ontent,org.opengis.metadata.distribution,org.opengis.metadata.extent,or
+ g.opengis.metadata.identification,org.opengis.metadata.lineage,org.open
+ gis.metadata.maintenance,org.opengis.metadata.spatial,org.opengis.param
+ eter,org.opengis.referencing.crs,org.opengis.util
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.6))"
+Specification-Title: GeoAPI
+Specification-Vendor: Open Geospatial Consortium
+Specification-Version: 3.0.0
+Tool: Bnd-2.3.0.201405100607

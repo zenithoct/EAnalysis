@@ -1,0 +1,15 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+Apache HttpClient Mime
+
+
+From: 'The Apache Software Foundation' (http://www.apache.org/)
+  - Apache HttpCore (http://hc.apache.org/httpcomponents-core-ga) org.apache.httpcomponents:httpcore:jar:4.2.5
+    License: Apache License  (LICENSE.txt)
+
+
+
+

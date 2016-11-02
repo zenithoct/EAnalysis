@@ -1,0 +1,57 @@
+Manifest-Version: 1.0
+Export-Package: org.apache.commons.compress;version="1.11",org.apache.
+ commons.compress.archivers;version="1.11",org.apache.commons.compress
+ .archivers.ar;version="1.11",org.apache.commons.compress.archivers.ar
+ j;version="1.11",org.apache.commons.compress.archivers.cpio;version="
+ 1.11",org.apache.commons.compress.archivers.dump;version="1.11",org.a
+ pache.commons.compress.archivers.jar;version="1.11",org.apache.common
+ s.compress.archivers.sevenz;version="1.11",org.apache.commons.compres
+ s.archivers.tar;version="1.11",org.apache.commons.compress.archivers.
+ zip;version="1.11",org.apache.commons.compress.changes;version="1.11"
+ ,org.apache.commons.compress.compressors;version="1.11",org.apache.co
+ mmons.compress.compressors.bzip2;version="1.11",org.apache.commons.co
+ mpress.compressors.deflate;version="1.11",org.apache.commons.compress
+ .compressors.gzip;version="1.11",org.apache.commons.compress.compress
+ ors.lzma;version="1.11",org.apache.commons.compress.compressors.lzw;v
+ ersion="1.11",org.apache.commons.compress.compressors.pack200;version
+ ="1.11",org.apache.commons.compress.compressors.snappy;version="1.11"
+ ,org.apache.commons.compress.compressors.xz;version="1.11",org.apache
+ .commons.compress.compressors.z;version="1.11",org.apache.commons.com
+ press.parallel;version="1.11",org.apache.commons.compress.utils;versi
+ on="1.11"
+Implementation-Title: Apache Commons Compress
+Built-By: bodewig
+Tool: Bnd-2.3.0.201405100607
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.5))"
+Implementation-Vendor: The Apache Software Foundation
+Implementation-Vendor-Id: org.apache
+Specification-Title: Apache Commons Compress
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-SymbolicName: org.apache.commons.compress
+Extension-Name: org.apache.commons.compress
+X-Compile-Target-JDK: 1.5
+Implementation-Version: 1.11
+Specification-Vendor: The Apache Software Foundation
+Bundle-Name: Apache Commons Compress
+Created-By: Apache Maven Bundle Plugin
+Implementation-URL: http://commons.apache.org/proper/commons-compress/
+X-Compile-Source-JDK: 1.5
+Bundle-Vendor: The Apache Software Foundation
+Build-Jdk: 1.7.0_95
+Bundle-Version: 1.11.0
+Bnd-LastModified: 1459622520695
+Bundle-ManifestVersion: 2
+Bundle-Description: Apache Commons Compress software defines an API fo
+ r working withcompression and archive formats.  These include: bzip2,
+  gzip, pack200,lzma, xz, Snappy, traditional Unix Compress, DEFLATE a
+ nd ar, cpio,jar, tar, zip, dump, 7z, arj.
+Bundle-DocURL: http://commons.apache.org/proper/commons-compress/
+Import-Package: org.tukaani.xz;resolution:=optional
+Include-Resource: META-INF/NOTICE.txt=NOTICE.txt,META-INF/LICENSE.txt=
+ LICENSE.txt
+Specification-Version: 1.11
+Implementation-Build: UNKNOWN@r${buildNumber}; 2016-04-02 20:41:50+020
+ 0
+Main-Class: org.apache.commons.compress.archivers.Lister
+Archiver-Version: Plexus Archiver
+
