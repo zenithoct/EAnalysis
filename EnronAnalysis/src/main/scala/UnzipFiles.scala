@@ -108,8 +108,8 @@ object UnzipFiles {
   }
   def uploadS3(content:Array[Byte],fileName:String): Unit =
   {
-    val AWS_ACCESS_KEY = "AKIAJ5EMZXVXGQBRXBVQ"
-    val AWS_SECRET_KEY = "BEQ1yYjBvWOdrFJZgWhsgcLQj/yW4z7hesO9lzPR"
+    val AWS_ACCESS_KEY = ""
+    val AWS_SECRET_KEY = ""
 
     val yourAWSCredentials = new BasicAWSCredentials(AWS_ACCESS_KEY, AWS_SECRET_KEY)
     val amazonS3Client = new AmazonS3Client(yourAWSCredentials)
